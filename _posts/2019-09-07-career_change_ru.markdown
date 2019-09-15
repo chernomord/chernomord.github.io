@@ -2,7 +2,8 @@
 layout: post
 title:  "Личный опыт и выводы после смены профессии с дизайнера на программиста"
 date:   2019-09-07 14:29:35 +0300
-categories: about_me personal_experience
+categories: [about me, career]
+tags: [blog, personal, life]
 lang: ru
 ref: career_change
 ---

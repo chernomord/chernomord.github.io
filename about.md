@@ -1,20 +1,14 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ref: about
 lang: en
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![slava komarov]
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Ok now, some words about me...
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[slava komarov]: /assets/my_photo.png
+{: width="200px"}
