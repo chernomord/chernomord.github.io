@@ -30,7 +30,7 @@ feed:
   en: /feed.xml
   ru: /feed-ru.xml
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://chernomord.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hrltkomarov
 github_username:  chernomord
 

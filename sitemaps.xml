@@ -7,11 +7,9 @@ permalink: new_sitemap.xml
     {% for post in site.posts %}<url>
         <loc>https://chernomord.github.io{{ post.url | remove: 'index.html' }}</loc>
         <lastmod>{{post.date}}</lastmod>
-        <updates>weekly</updates>
     </url>{% endfor %}
     {% for page in site.pages %}{% if page.layout != nil %}{% if page.layout != 'feed' %}<url>
         <loc>https://chernomord.github.io{{ page.url | remove: 'index.html' }}</loc>
         {% if page.date != nil %}<lastmod>{{page.date}}</lastmod>{% endif %}
-        <updates>weekly</updates>
     </url>{% endif %}{% endif %}{% endfor %}
 </urlset>
