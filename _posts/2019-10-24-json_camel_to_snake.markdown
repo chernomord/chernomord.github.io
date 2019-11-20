@@ -29,7 +29,7 @@ Ok, let's get to the solution. First thing that came into my head is just to do 
 Let's try it and see what's come out of that...
 
 Let's say it would be our JSON to tamper with:
-```JSON
+```json
 {
   "firstName": "Jay",
   "lastName": "Rogers",
