@@ -6,7 +6,7 @@
     <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title[page.lang] | escape }}{% endif %}</title>
     <meta name="description"
           content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
-
+    <meta name="yandex-verification" content="edfea2eebf9a4478" />
     {%if page.tags %}
     <meta name="keywords" content="{{ page.tags | join: ', ' | escape }}"/>
     {%endif %}
