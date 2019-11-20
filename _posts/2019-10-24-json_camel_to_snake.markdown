@@ -2,8 +2,8 @@
 layout: post
 title:  "JSON keys camel case to snake case conversion"
 date:   2019-10-24 14:29:35 +0300
-categories: programming, patterns, algorithms
-tags: javascript, programming, algorithms, json, camel case, snake case
+categories: [programming]
+tags: [javascript, programming, algorithms, json, camel case, snake case, parsing]
 lang: en
 ref: json_camel_to_snake
 ---
@@ -49,7 +49,7 @@ function JSONToSnake(input) {
 
   for (let i = 0; i < input.length; i++) {
   	const letter = input[i];
-		if (/[A-Z]/.test(letter)) {
+	if (/[A-Z]/.test(letter)) {
     	snakeStr += '_' + letter.toLowerCase()
     } else {
       snakeStr += letter
