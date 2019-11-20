@@ -5,12 +5,12 @@ permalink: new_sitemap.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for post in site.posts %}<url>
-        <loc>//chernomord.github.io{{ post.url | remove: 'index.html' }}</loc>
+        <loc>https://chernomord.github.io{{ post.url | remove: 'index.html' }}</loc>
         <lastmod>{{post.date}}</lastmod>
         <updates>weekly</updates>
     </url>{% endfor %}
     {% for page in site.pages %}{% if page.layout != nil %}{% if page.layout != 'feed' %}<url>
-        <loc>//chernomord.github.io{{ page.url | remove: 'index.html' }}</loc>
+        <loc>https://chernomord.github.io{{ page.url | remove: 'index.html' }}</loc>
         {% if page.date != nil %}<lastmod>{{page.date}}</lastmod>{% endif %}
         <updates>weekly</updates>
     </url>{% endif %}{% endif %}{% endfor %}
