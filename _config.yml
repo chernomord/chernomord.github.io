@@ -23,6 +23,8 @@ description:
     back-end too, NodeJS and even Java.
   ru: >-
     Пишу обо всем понемногу. JavaScript, Design Patterns, веб фронтенд, Vue, React, Nodejs и прочая Java простите ,)
+avatar: /assets/my_photo.png
+assets: /assets
 index:
   en:
   ru: index-ru.html
@@ -33,6 +35,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chernomord.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hrltkomarov
 github_username:  chernomord
+locale:
+  en: en_US
+  ru: ru_RU
 
 # Build settings
 markdown: kramdown
