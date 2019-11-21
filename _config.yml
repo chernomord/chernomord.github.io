@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title:
-  en: Slava Komarov Blog
-  ru: Блог Славы Комарова
+  en: Slava Komarov
+  ru: Славы Комаров
 email: horlet@gmail.com
 description:
   en: >-

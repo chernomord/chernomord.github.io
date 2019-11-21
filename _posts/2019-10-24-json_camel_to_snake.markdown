@@ -8,8 +8,6 @@ lang: en
 ref: json_camel_to_snake
 ---
 
-# JSON camel case to snake case conversion
-
 Well, the reason for this was the need for me to keep two applications with 
 different JSON key naming conventions to work together while keeping those conventions each to its own. Perhaps it's
 my fault but I was'nt been able to find any ready solution that could perfectly fit for the task, neither for the browser nor backend app. 
