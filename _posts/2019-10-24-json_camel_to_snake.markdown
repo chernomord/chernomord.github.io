@@ -108,7 +108,7 @@ function JSONCamelToSnake(input) {
     const prevTwo = first + second;
     if (!isKeyStarted) { // if key name is not here
       // checking if key name was started
-      isKeyStarted = prevTwo === '{"' || prevTwo === '",';
+      isKeyStarted = prevTwo === '{"' || prevTwo === ',"';
       // switching isKeyEnded flag accordingly
       isKeyEnded = !isKeyStarted
     } else {
