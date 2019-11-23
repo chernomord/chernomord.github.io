@@ -34,6 +34,7 @@ Let's say it would be our JSON to tamper with:
   "items": [
     "pistol",
     {
+      "digitKey": 54,
       "itemName": "pocketPistol",
       "quality": "quite normal"
     }
@@ -67,6 +68,7 @@ But there is a catch, lets see the result of running the function above against 
   "items": [
     "pistol",
     {
+      "digit_key": 54,
       "item_name": "pocket_pistol",
       "quality": "quite normal"
     }
@@ -139,6 +141,7 @@ Now we should get correct results... Let's see
   "items": [
     "pistol",
     {
+      "digit_key": 54,
       "item_name": "pocketPistol",
       "quality": "quite normal"
     }
