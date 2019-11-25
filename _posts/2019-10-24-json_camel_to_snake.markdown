@@ -3,10 +3,13 @@ layout: post
 title:  "JSON keys camel case to snake case conversion"
 date:   2019-10-24 14:29:35 +0300
 categories: [programming]
+thumbnail: /assets/posts_pics/json_camel_to_snake.png
 tags: [javascript, programming, algorithms, json, camel case, snake case, parsing]
 lang: en
 ref: json_camel_to_snake
 ---
+
+![cover]
 
 The reason to solve this task was the need for me to keep two applications with different JSON 
 key naming conventions to work together while keeping those conventions each to its own. 
@@ -152,3 +155,4 @@ Now we should get correct results... Let's see
 
 You could see for the result and a working example down the [JSFiddle link](https://jsfiddle.net/horlet/69eLvb5r/)
 
+[cover]: /assets/posts_pics/json_camel_to_snake.png
