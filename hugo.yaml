@@ -1,0 +1,94 @@
+baseURL: "https://naughtypossum.me/"
+title: "Slava Komarov"
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+paginate: 10
+summaryLength: 24
+timeZone: Europe/Moscow
+enableRobotsTXT: false
+
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
+
+taxonomies:
+  tag: tags
+  topic: topics
+
+outputs:
+  home: [HTML, RSS]
+  section: [HTML, RSS]
+  taxonomy: [HTML, RSS]
+  term: [HTML, RSS]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+params:
+  description: "A bilingual blog about software, systems, and side projects."
+  author: "Slava Komarov"
+  mainSections:
+    - posts
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+
+languages:
+  en:
+    locale: en-US
+    label: English
+    weight: 1
+    contentDir: content/en
+    title: "Slava Komarov"
+    params:
+      description: "A fresh bilingual blog about software, systems, and side projects."
+      author: "Slava Komarov"
+    menu:
+      main:
+        - name: Home
+          url: /
+          weight: 1
+        - name: Posts
+          url: /posts/
+          weight: 2
+        - name: About
+          url: /about/
+          weight: 3
+        - name: Projects
+          url: /projects/
+          weight: 4
+  ru:
+    locale: ru-RU
+    label: Русский
+    weight: 2
+    contentDir: content/ru
+    title: "Слава Комаров"
+    params:
+      description: "Новый двуязычный блог о разработке, системах и побочных проектах."
+      author: "Слава Комаров"
+    menu:
+      main:
+        - name: Главная
+          url: /
+          weight: 1
+        - name: Посты
+          url: /posts/
+          weight: 2
+        - name: Обо мне
+          url: /about/
+          weight: 3
+        - name: Проекты
+          url: /projects/
+          weight: 4

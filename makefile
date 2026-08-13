@@ -1,2 +1,5 @@
 run:
-	bundle exec jekyll serve
+	hugo server
+
+build:
+	hugo --minify
