@@ -1,6 +1,7 @@
 public/
 resources/
 inbox/
+.obsidian
 .hugo_build.lock
 hugo_stats.json
 .idea
