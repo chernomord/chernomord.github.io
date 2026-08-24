@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ontology Switching Lab</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">Pre-alpha demo</div>
+        <h1>Ontology Switching Lab</h1>
+        <p class="subtitle">
+          One changing text in the center. One set of transformation controls. One reading phase.
+        </p>
+      </div>
+      <div class="hero-meta">
+        <div class="pill-row">
+          <span class="pill">text anchor</span>
+          <span class="pill">transform controls</span>
+          <span class="pill">reading phase</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="app-grid">
+      <section class="panel controls-panel">
+        <div class="panel-head">
+          <h2>Controls</h2>
+        </div>
+        <div class="panel-body" id="controls"></div>
+        <div class="panel-foot" id="diagnostics"></div>
+      </section>
+
+      <section class="panel focus-panel">
+        <div class="focus-shell" id="focus"></div>
+      </section>
+    </main>
+  </div>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
