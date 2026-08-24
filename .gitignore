@@ -5,3 +5,4 @@ inbox/
 .hugo_build.lock
 hugo_stats.json
 .idea
+.DS_Store
