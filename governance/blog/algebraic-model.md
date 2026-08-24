@@ -33,6 +33,7 @@ Note        --continues?--> ResearchThread[0..n]
 Publication --uses--------> Artifact[0..n]
 Synthesis   --synthesizes-> Publication[0..n]
 Project     --hasQuestion--> OpenQuestion[1]
+Project     --isPartOf?----> Project[0..1]
 ResearchThread --hasScope--> Scope[1]
 ```
 
@@ -42,6 +43,11 @@ ResearchThread --hasScope--> Scope[1]
 
 Одна заметка может не иметь ни одного `Project` и ни одного `ResearchThread`.
 Это нормальный случай, а не незаполненное поле.
+
+Иерархия проектов хранится на дочерней странице в `parentProject`. Она образует
+лес, а не граф: у проекта не более одного родителя и циклы запрещены. Родитель
+показывает дочерние проекты как отдельные траектории. Связанные с дочерним
+проектом публикации не приписываются родительскому автоматически.
 
 ## Жизненный цикл и публикация
 
@@ -76,6 +82,8 @@ Thread state:         candidate | promoted | archived
 ```text
 Notes(L)       = published Note в L, в обратном хронологическом порядке
 Projects(L)    = published Project в L с visibility ∈ {listed, featured}
+RootProjects(L)= Projects(L) без parentProject
+ChildProjects(P, L) = Projects(L) с parentProject = P.id
 Threads(L)     = published ResearchThread в L с state = promoted
 CaseStudies(L) = published CaseStudy в L
 Essays(L)      = published Essay в L

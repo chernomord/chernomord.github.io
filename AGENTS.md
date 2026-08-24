@@ -20,6 +20,10 @@ Before implementing templates, archetypes, front matter, or checks, treat
 ambiguous or conflicts with the requested change, stop and report the conflict
 instead of choosing semantics implicitly.
 
+For any change to Hugo, PaperMod, front matter, or local layouts, also follow
+`governance/blog/toolchain-compatibility.md`. Do not suppress Hugo deprecation
+warnings; resolve them and run the documented build check.
+
 ## Scope
 
 The blog's structure must emerge from published relation metadata. Do not add
