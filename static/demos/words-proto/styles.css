@@ -241,20 +241,22 @@ h1 {
 
 .focus-stage.aphorism .focus-line {
   color: #eef2f7;
-  font-size: 1.18rem;
+  font-size: 1.3rem;
 }
 
 .focus-stage.quote .focus-line {
   color: #ffffff;
-  font-size: clamp(1.3rem, 2.1vw, 2rem);
-  line-height: 1.28;
+  /*font-size: clamp(1.3rem, 2.1vw, 2rem);*/
+  font-size: 1.3rem;
+  line-height: 1.3;
 }
 
 .focus-stage.alice .focus-line {
   color: #fff4ef;
-  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  /*font-size: clamp(1.2rem, 2vw, 1.8rem);*/
+  font-size: 1.3rem;
   line-height: 1.3;
-  font-style: italic;
+  font-style: normal;
 }
 
 .focus-stage.alice .focus-title {
@@ -275,11 +277,15 @@ h1 {
 }
 
 .unlock-word {
-  color: #7dd3fc;
+  color: darkblue;
   font-weight: 700;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-decoration-thickness: 2px;
   text-underline-offset: 3px;
+  background-color: yellow;
+  /* display: inline-block; */
+  padding: 2px 8px;
+  border-radius: 10px;
 }
 
 .unlock-line:hover .unlock-word {
