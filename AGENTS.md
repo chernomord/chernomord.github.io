@@ -29,3 +29,13 @@ warnings; resolve them and run the documented build check.
 The blog's structure must emerge from published relation metadata. Do not add
 empty thematic sections, static navigation for an unmaterialized line, or a
 second use for the legacy `topics` taxonomy.
+
+## Editorial work
+
+For observations, post ideas, publication planning, and author-text intake,
+read `editorial/README.md` first. It describes the current working process;
+blog governance still owns publication entities and site structure.
+The default output is a sourced writing brief. The author writes the post.
+Preserve submitted author prose. Texts submitted as the user's own posts may
+inform style analysis unless excluded by the user; do not treat agent drafts,
+quoted passages, or texts of unknown authorship as author-style samples.

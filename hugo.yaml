@@ -35,6 +35,7 @@ params:
   author: "Slava Komarov"
   mainSections:
     - posts
+    - notes
   defaultTheme: auto
   disableThemeToggle: false
   ShowReadingTime: true
